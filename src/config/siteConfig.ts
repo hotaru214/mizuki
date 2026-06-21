@@ -18,14 +18,14 @@ export const siteConfig: SiteConfig = {
 
   // 特色页面开关配置（关闭未使用的页面有助于提升 SEO，关闭后请记得在 navbarConfig 中移除对应链接）
   featurePages: {
-    anime: true, // 番剧页面开关
-    diary: true, // 日记页面开关
-    friends: true, // 友链页面开关
-    projects: true, // 项目页面开关
-    skills: true, // 技能页面开关
-    timeline: true, // 时间线页面开关
-    albums: true, // 相册页面开关
-    devices: true, // 设备页面开关
+    anime: false, // 番剧追踪页
+    diary: false, // 日记页
+    friends: false, // 友链页
+    projects: false, // 项目展示页
+    skills: false, // 技能展示页
+    timeline: false, // 时间线页
+    albums: false, // 相册页
+    devices: false, // 设备展示页
   },
 
   // 顶栏标题配置
@@ -33,7 +33,7 @@ export const siteConfig: SiteConfig = {
     // 显示模式："text-icon" 显示图标+文本，"logo" 仅显示Logo
     mode: "text-icon",
     // 顶栏标题文本
-    text: "MizukiUI",
+    text: "hotaru",
     // 顶栏标题图标路径，默认使用 public/assets/home/home.webp
     icon: "assets/home/home.webp",
     // 网站Logo图片路径
