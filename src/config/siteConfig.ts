@@ -18,7 +18,7 @@ export const siteConfig: SiteConfig = {
 
   // 特色页面开关配置（关闭未使用的页面有助于提升 SEO，关闭后请记得在 navbarConfig 中移除对应链接）
   featurePages: {
-    anime: false, // 番剧追踪页
+    anime: true, // 番剧追踪页
     diary: false, // 日记页
     friends: false, // 友链页
     projects: false, // 项目展示页
@@ -53,7 +53,7 @@ export const siteConfig: SiteConfig = {
 
   bilibili: {
     vmid: "533078968", // 在此处设置你的Bilibili用户ID (uid)，例如 "1129280784"
-    fetchOnDev: true, // 是否在开发环境下获取 Bilibili 数据（默认 false）
+    fetchOnDev: false, // 是否在开发环境下获取 Bilibili 数据（默认 false）
     coverMirror: "", // 封面图片镜像源（可选，如果需要使用镜像源，例如 "https://images.weserv.nl/?url="）
     useWebp: true, // 是否使用WebP格式（默认 true）
 
@@ -89,19 +89,19 @@ export const siteConfig: SiteConfig = {
   // 标签样式配置
   tagStyle: {
     // 是否使用新样式（悬停高亮样式）还是旧样式（外框常亮样式）
-    useNewStyle: false,
+    useNewStyle: true,
   },
 
   // 壁纸模式配置
   wallpaperMode: {
     // 默认壁纸模式：banner=顶部横幅，fullscreen=全屏壁纸，none=无壁纸
-    defaultMode: "banner",
+    defaultMode: "fullscreen",
     // 整体布局方案切换按钮显示设置（默认："desktop"）
     // "off" = 不显示
     // "mobile" = 仅在移动端显示
     // "desktop" = 仅在桌面端显示
     // "both" = 在所有设备上显示
-    showModeSwitchOnMobile: "both",
+    showModeSwitchOnMobile: "off",
   },
 
   banner: {
@@ -147,7 +147,7 @@ export const siteConfig: SiteConfig = {
 
     homeText: {
       enable: true,
-      title: "hotaru",
+      title: "hotaru的blog小屋",
       switchable: true,
 
       subtitle: [
@@ -183,7 +183,7 @@ export const siteConfig: SiteConfig = {
     desktopSidebar: true, // 电脑端右侧边栏 TOC
     floating: true, // 悬浮 TOC 按钮
     depth: 2, // 目录深度，1-6，1 表示只显示 h1 标题，2 表示显示 h1 和 h2 标题，依此类推
-    useJapaneseBadge: true, // 使用日语假名标记（あいうえお...）代替数字，开启后会将 1、2、3... 改为 あ、い、う...
+    useJapaneseBadge: false, // 使用日语假名标记（あいうえお...）代替数字，开启后会将 1、2、3... 改为 あ、い、う...
   },
   showCoverInContent: true, // 在文章内容页显示文章封面
   generateOgImages: false, // 启用生成OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
