@@ -16,11 +16,6 @@ export const profileConfig: ProfileConfig = {
       url: "https://space.bilibili.com/533078968",
     },
     {
-      name: "Gitee",
-      icon: "mdi:git",
-      url: "https://gitee.com/matsuzakayuki",
-    },
-    {
       name: "GitHub",
       icon: "fa7-brands:github",
       url: "https://github.com/hotaru214",
