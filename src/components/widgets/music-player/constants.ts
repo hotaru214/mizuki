@@ -25,7 +25,7 @@ export const LOCAL_PLAYLIST: Song[] = [
     id: 3,
     title: "DAMIDAMI",
     artist: "ZZZ",
-    cover: "assets/music/cover/DAMIDAMI.webp",
+    cover: "assets/music/cover/dami.webp",
     url: "assets/music/url/DAMIDAMI.mp3",
     duration: 180,
   },
