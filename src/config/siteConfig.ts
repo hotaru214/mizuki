@@ -24,7 +24,7 @@ export const siteConfig: SiteConfig = {
     projects: false, // 项目展示页
     skills: false, // 技能展示页
     timeline: false, // 时间线页
-    albums: false, // 相册页
+    albums: true, // 相册页
     devices: false, // 设备展示页
   },
 
