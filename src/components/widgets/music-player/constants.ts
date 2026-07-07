@@ -37,6 +37,14 @@ export const LOCAL_PLAYLIST: Song[] = [
     url: "assets/music/url/fire.mp3",
     duration: 200,
   },
+  {
+    id: 5,
+    title: "花の塔",
+    artist: "酸欠少女",
+    cover: "assets/music/cover/hua.webp",
+    url: "assets/music/url/hua.mp3",
+    duration: 200,
+  },
 ];
 
 export const DEFAULT_SONG: Song = {
